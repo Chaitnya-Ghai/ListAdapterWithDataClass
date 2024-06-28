@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ListAdapterWithDataClass</string>
+    <string name="testing">Testing</string>
+    <string name="tittle">Enter Details</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_rollNo">Enter Your RollNo.</string>
+    <string name="enter_your_subject">Enter your Subject</string>
+</resources>

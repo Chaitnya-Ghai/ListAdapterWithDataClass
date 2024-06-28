@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/customDialog">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tittle"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toTopOf="@+id/customDialog"
+        app:layout_constraintStart_toStartOf="@+id/customDialog"
+        android:id="@+id/tvCustomDialog"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/tvCustomDialog"
+        app:layout_constraintStart_toStartOf="@+id/customDialog"
+        android:id="@+id/etName"
+        android:hint="@string/enter_your_name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/etName"
+        app:layout_constraintStart_toStartOf="@+id/customDialog"
+        android:layout_margin="20dp"
+        android:id="@+id/etRollNo"
+        android:inputType="number"
+        android:hint="@string/enter_your_rollNo"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/etRollNo"
+        app:layout_constraintStart_toStartOf="@+id/customDialog"
+        android:id="@+id/etSubject"
+        android:layout_margin="20dp"
+        android:hint="@string/enter_your_subject"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel_button"
+        android:text="@string/cancel"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/etSubject"
+        app:layout_constraintStart_toStartOf="@+id/customDialog"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/addBtn"
+        app:layout_constraintTop_toBottomOf="@id/etSubject"
+        app:layout_constraintEnd_toEndOf="@+id/customDialog"
+        android:text="@string/add"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
