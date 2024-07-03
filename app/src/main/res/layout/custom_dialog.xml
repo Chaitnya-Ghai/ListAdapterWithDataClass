@@ -55,8 +55,4 @@
         app:layout_constraintEnd_toEndOf="@+id/customDialog"
         android:text="@string/add"
         />
-
-
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
